@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import logo from '/public/logo-dark.png'
+import logo from '/public/images/logo-dark.png'
 import Navlink from './Navlink'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 import MenuOverlay from './MenuOverlay'

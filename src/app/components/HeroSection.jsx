@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
-import profile from '/public/profile.JPG'
+import profile from '/public/images/profile.JPG'
 import { TypeAnimation } from 'react-type-animation'
 
 const HeroSection = () => {
