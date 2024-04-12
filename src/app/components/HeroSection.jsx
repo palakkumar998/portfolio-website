@@ -25,6 +25,8 @@ const HeroSection = () => {
 								1000,
 								'Cinematographer',
 								1000,
+								'Freelancer',
+								1000,
 							]}
 							wrapper="span"
 							speed={50}
@@ -32,11 +34,11 @@ const HeroSection = () => {
 						/>
 					</h1>
 					<p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mt-4">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Eveniet commodi, ad asperiores est doloremque nisi
-						sapiente obcaecati officiis a odit nostrum alias
-						perferendis necessitatibus, similique facilis culpa
-						ipsa, minima cum?
+						a passionate video editor and graphic designer with a
+						strong eye for detail. I excel at transforming raw
+						footage and images into captivating visual stories. My
+						goal is to create engaging content that resonates with
+						audiences and leaves a lasting impact.
 					</p>
 					<div className="flex flex-col sm:flex-row mt-6 sm:mt-8 space-y-4 sm:space-y-0 sm:space-x-4">
 						<button>
