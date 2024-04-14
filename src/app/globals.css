@@ -18,16 +18,85 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Define a smoother RGB glow animation */
+@keyframes rgbGlow {
+  0% {
+    box-shadow: 0 0 20px red, 0 0 30px green, 0 0 40px blue;
+  }
+
+  25% {
+    box-shadow: 0 0 20px green, 0 0 30px blue, 0 0 40px red;
+  }
+
+  50% {
+    box-shadow: 0 0 20px blue, 0 0 30px red, 0 0 40px green;
+  }
+
+  75% {
+    box-shadow: 0 0 20px yellow, 0 0 30px purple, 0 0 40px cyan;
+  }
+
+  100% {
+    box-shadow: 0 0 20px cyan, 0 0 30px yellow, 0 0 40px purple;
+  }
+}
+
+/* Delicate RGB glow effect */
+.rgb-glow {
+  animation: rgbGlow 5s linear infinite;
+  /* Longer duration for a smoother transition */
+  border-radius: 0.5rem;
+  /* Rounded corners */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  /* Delicate glow */
+}
+
+/* Define the spotlight animation */
+@keyframes spotlight {
+  0% {
+    mask-position: 0% 0%;
+  }
+
+  25% {
+    mask-position: 100% 0%;
+  }
+
+  50% {
+    mask-position: 100% 100%;
+  }
+
+  75% {
+    mask-position: 0% 100%;
+  }
+
+  100% {
+    mask-position: 0% 0%;
+  }
+}
+
+/* Spotlight effect on the image */
+.spotlight {
+  mask-image: radial-gradient(circle, rgba(255, 255, 255, 0.9), transparent 70%);
+  -webkit-mask-image: radial-gradient(circle, rgba(255, 255, 255, 0.9), transparent 70%);
+  mask-size: 150% 150%;
+  /* Adjust the size of the mask */
+  -webkit-mask-size: 150% 150%;
+  /* Adjust the size of the mask */
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center center;
+  -webkit-mask-position: center center;
+  animation: spotlight 6s linear infinite;
+  /* Duration and type of animation */
 }
