@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
-import profile from '/public/images/profile.JPG'
+import profile from '/public/images/profile-3.png'
 import { TypeAnimation } from 'react-type-animation'
 
 const HeroSection = () => {
@@ -84,8 +84,8 @@ const HeroSection = () => {
 						<Image
 							src={profile}
 							alt="My Profile Picture"
-							width={500}
-							height={500}
+							width={800}
+							height={800}
 							className="rounded-lg"
 						/>
 					</div>
