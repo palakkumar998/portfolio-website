@@ -2,7 +2,6 @@
 import React from 'react'
 
 import Facebook from '../../../public/facebook.svg'
-import LinkedIn from '../../../public/linkedIn.svg'
 import instagram from '../../../public/instagram.svg'
 import whatsapp from '../../../public/whatsapp.svg'
 
@@ -24,17 +23,14 @@ const EmailSection = () => {
 					perferendis nemo totam. Saepe, inventore consectetur.
 				</p>
 				<div className="socials flex flex-row gap-2">
-					<Link href="github.com">
+					<Link href="https://www.facebook.com/falak.kr.5">
 						<Image src={Facebook} alt="facebook icon" />
 					</Link>
-					<Link href="github.com">
+					<Link href="https://www.instagram.com/palakkumar09?igsh=MWc4cmRsODk1NjZxMQ%3D%3D&utm_source=qr">
 						<Image src={instagram} alt="instagram icon" />
 					</Link>
-					<Link href="github.com">
+					<Link href="https://wa.me/7060504783">
 						<Image src={whatsapp} alt="whatsapp icon" />
-					</Link>
-					<Link href="github.com">
-						<Image src={LinkedIn} alt="LinkedIn icon" />
 					</Link>
 				</div>
 			</div>

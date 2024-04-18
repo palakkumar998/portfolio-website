@@ -1,16 +1,17 @@
 import { EmailTemplate } from '../../../components/EmailTemplate';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESE);
+const resend = new Resend(process.env.RESEND_API_KEY);
+const fromEmail = process.env.FROM_EMAIL
 
 export async function POST() {
     try {
         const data = await resend.emails.send({
-            from: 'Palak <palakkumar1998@gmail.com>',
-            to: ['falakkr.4783@gmail.com'],
+            from: fromEmail,
+            to: '',
             subject: 'Hello world',
             react: <>
-            <p>Email Body</p>
+                <p>Testing Email from Portfolio Website</p>
             </>
         });
 
