@@ -108,6 +108,7 @@ const ProjectSection = () => {
 					/>
 				))}
 			</div>
+		
 		</section>
 	)
 }

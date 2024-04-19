@@ -79,7 +79,7 @@ const HeroSection = () => {
 						</button>
 					</div>
 				</div>
-				<div className="text-center sm:text-right">
+				<div className="text-center sm:text-right"  >				
 					<div className="rounded-lg bg-[#181818] w-full max-w-sm sm:max-w-md lg:max-w-lg  mx-auto lg:mx-0">
 						<Image
 							src={profile}

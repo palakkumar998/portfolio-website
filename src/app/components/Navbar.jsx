@@ -19,6 +19,10 @@ const navlinks = [
 		title: 'Contact',
 		path: '#contact',
 	},
+	{
+		title: 'Testimonial',
+		path: '#testimonials',
+	},
 ]
 
 const Navbar = () => {
