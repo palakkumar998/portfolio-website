@@ -18,18 +18,37 @@ const TAB_DATA = [
 		title: 'Skills',
 		id: 'skills',
 		content: (
-			<ul className="list-disc pl-2">
-				<li>Story-telling</li>
-				<li>Color grading</li>
-				<li>Seamless Transitions</li>
-				<li>Motion Graphics</li>
-				<li>Visual story representation</li>
-				<li>Sound Desgining</li>
-				<li>Trailer / Intros / Outros</li>
-				<li>Typography</li>
-				<li>Color Schemes</li>
-				<li>Color thoery</li>
-				<li>Lighting Techniques</li>
+			<ul className="list-disc gap-2 pl-2">
+				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Story-telling
+				</button>
+				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Color grading
+				</button>
+				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Seamless Transitions
+				</button>
+				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Visual story representation
+				</button>
+				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Sound Desgining
+				</button>
+				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Trailer, Intros, Outros
+				</button>
+				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2  font-bold py-2 px-4 rounded-3xl">
+					Typography
+				</button>
+				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Color Scheme
+				</button>
+				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Color thoery
+				</button>
+				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Lighting Techniques
+				</button>
 			</ul>
 		),
 	},
@@ -38,14 +57,33 @@ const TAB_DATA = [
 		id: 'formats',
 		content: (
 			<ul className="list-disc pl-2">
-				<li>Short Form content</li>
-				<li>Large Form Content</li>
-				<li>Talking Head Videos</li>
-				<li>Informative videos</li>
-				<li>Vlogs</li>
-				<li>Podcasts</li>
-				<li>Corporate Videos</li>
-				<li>Fitness & Yoga tutorials</li>
+				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Short Form content
+				</button>
+				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Large Form Content
+				</button>
+				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Talking Head Videos
+				</button>
+				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Informative videos
+				</button>
+
+				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Vlogs
+				</button>
+
+				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Podcasts
+				</button>
+
+				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Corporate Videos
+				</button>
+				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+					Fitness & Yoga tutorials
+				</button>
 			</ul>
 		),
 	},
@@ -57,23 +95,24 @@ const TAB_DATA = [
 				<div className="flex mb-2 py-3 gap-6 items-center">
 					<Image
 						src={yt}
-						alt="davinci"
-						width={60}
-						height={60}
+						alt="youtube"
+						width={90}
+						height={90}
+						className="transition-transform duration-300 hover:scale-110"
+					/>
+
+					<Image
+						src={insta}
+						alt="instagram"
+						width={90}
+						height={90}
 						className="transition-transform duration-300 hover:scale-110"
 					/>
 					<Image
 						src={li}
-						alt="davinci"
-						width={50}
-						height={50}
-						className="transition-transform duration-300 hover:scale-110"
-					/>
-					<Image
-						src={insta}
-						alt="davinci"
-						width={50}
-						height={50}
+						alt="linkedin"
+						width={80}
+						height={90}
 						className="transition-transform duration-300 hover:scale-110"
 					/>
 				</div>

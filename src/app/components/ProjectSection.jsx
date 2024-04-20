@@ -48,7 +48,7 @@ const projectsData = [
 		image: '/images/projects/5.png',
 		tag: ['All', 'Designing'],
 		gitUrl: '/',
-		previewUrl: '/',
+		previewUrl: 'https://www.instagram.com/rishikeshyogkulam?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
 	},
 	{
 		id: 6,
@@ -57,7 +57,34 @@ const projectsData = [
 		image: '/images/projects/6.png',
 		tag: ['All','Designing'],
 		gitUrl: '/',
+		previewUrl: 'https://www.youtube.com/@YogawithMasterD',
+	},
+	{
+		id: 7,
+		title: 'RS Inscence Sticks',
+		description: 'Stickers & logo Designing',
+		image: '/images/projects/7.png',
+		tag: ['All','Designing'],
+		gitUrl: '/',
 		previewUrl: '/',
+	},
+	{
+		id: 8,
+		title: 'RS Inscence Sticks',
+		description: 'Packaging design',
+		image: '/images/projects/8.png',
+		tag: ['All','Designing'],
+		gitUrl: '/',
+		previewUrl: '/',
+	},
+	{
+		id: 8,
+		title: 'Click Kar',
+		description: 'Photo Editing & Videography',
+		image: '/images/projects/9.png',
+		tag: ['All','Editing'],
+		gitUrl: '/',
+		previewUrl: 'https://www.instagram.com/clickar7?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
 	},
 ]
 

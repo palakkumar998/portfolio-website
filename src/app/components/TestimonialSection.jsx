@@ -22,12 +22,21 @@ const clientsData = [
 		star: '',
 	},
 	{
-		id: 2,
+		id: 3,
 		title: 'Ieva Ji',
 		field: 'Social Media Influncer, Yoga Teacher',
 		description:
 			'	Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, cum? Consectetur vel temporibus eveniet pariatur error porro illum numquam non consequatur? Nostrum consectetur consequatur mollitia molestias ad ipsam enim? Et?',
 		image: '/images/clients/client-1.png',
+		star: '',
+	},
+	{
+		id: 3,
+		title: 'Click Kar',
+		field: 'Photography & Video Editing',
+		description:
+			'	Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, cum? Consectetur vel temporibus eveniet pariatur error porro illum numquam non consequatur? Nostrum consectetur consequatur mollitia molestias ad ipsam enim? Et?',
+		image: '/images/clients/client-4.png',
 		star: '',
 	},
 ]
