@@ -19,34 +19,34 @@ const TAB_DATA = [
 		id: 'skills',
 		content: (
 			<ul className="list-disc gap-2 pl-2">
-				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Story-telling
 				</button>
-				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Color grading
 				</button>
-				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Seamless Transitions
 				</button>
-				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Visual story representation
 				</button>
-				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Sound Desgining
 				</button>
-				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Trailer, Intros, Outros
 				</button>
-				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2  font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2  font-bold py-2 px-4 rounded-3xl">
 					Typography
 				</button>
-				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Color Scheme
 				</button>
-				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Color thoery
 				</button>
-				<button class="bg-purple-500 hover:bg-purple-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Lighting Techniques
 				</button>
 			</ul>
@@ -57,31 +57,31 @@ const TAB_DATA = [
 		id: 'formats',
 		content: (
 			<ul className="list-disc pl-2">
-				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Short Form content
 				</button>
-				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Large Form Content
 				</button>
-				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Talking Head Videos
 				</button>
-				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Informative videos
 				</button>
 
-				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Vlogs
 				</button>
 
-				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Podcasts
 				</button>
 
-				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Corporate Videos
 				</button>
-				<button class="bg-violet-500 hover:bg-violet-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+				<button class="bg-primary-500 hover:bg-primary-700 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 					Fitness & Yoga tutorials
 				</button>
 			</ul>

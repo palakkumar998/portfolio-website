@@ -1,7 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-
-const { Barlow_Condensed } = require('next/font/google');
-
+const colors = require("tailwindcss/colors");
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,9 +13,11 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      fontFamily: {
-        Barlow_Condensed: ['Barlow_Condensed'],
-      },
+    },
+    colors: {
+      ...colors,
+      primary: colors.purple,
+      secondary: colors.pink,
     },
   },
   plugins: [],
