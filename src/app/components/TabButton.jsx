@@ -1,5 +1,5 @@
 import React from 'react'
-// import { motion } from "framer-motion";
+import { motion } from 'framer-motion'
 
 const variants = {
 	default: { width: 0 },
@@ -16,11 +16,11 @@ const TabButton = ({ active, selectTab, children }) => {
 			>
 				{children}
 			</p>
-			<div
+			<motion.div
 				animate={active ? 'active' : 'default'}
 				variants={variants}
 				className="h-1 bg-primary-500 mt-2 mr-3"
-			></div>
+			></motion.div>
 		</button>
 	)
 }

@@ -17,7 +17,7 @@ const HeroSection = () => {
 				>
 					<h1 className="text-white mb-4 text-xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
 						<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-500">
-							Hello, I'm Palak
+							Hello, I am Palak
 						</span>
 						<br></br>
 						<TypeAnimation
@@ -49,7 +49,7 @@ const HeroSection = () => {
 					<div className="flex flex-col sm:flex-row mt-6 sm:mt-8 space-y-4 sm:space-y-0 sm:space-x-4">
 						<button>
 							<a
-								href="#_"
+								href="https://wa.me/7060504783"
 								className="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-purple-500 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700"
 							>
 								<span className="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700"></span>
@@ -60,7 +60,7 @@ const HeroSection = () => {
 						</button>
 						<button>
 							<a
-								href="#_"
+								href="https://mail.google.com/mail/u/0/#inbox?compose=new"
 								className="relative inline-flex items-center px-8 py-3 overflow-hidden text-lg font-medium text-primary-400 border-2 border-primary-500 rounded-full hover:text-white group hover:bg-gray-50"
 							>
 								<span className="absolute left-0 block w-full h-0 transition-all bg-primary-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>

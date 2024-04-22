@@ -10,7 +10,6 @@ const clientsData = [
 		description:
 			'	Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, cum? Consectetur vel temporibus eveniet pariatur error porro illum numquam non consequatur? Nostrum consectetur consequatur mollitia molestias ad ipsam enim? Et?',
 		image: '/images/clients/client-3.png',
-		star: '',
 	},
 	{
 		id: 2,
@@ -19,7 +18,6 @@ const clientsData = [
 		description:
 			'	Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, cum? Consectetur vel temporibus eveniet pariatur error porro illum numquam non consequatur? Nostrum consectetur consequatur mollitia molestias ad ipsam enim? Et?',
 		image: '/images/clients/client-2.png',
-		star: '',
 	},
 	{
 		id: 3,
@@ -28,21 +26,19 @@ const clientsData = [
 		description:
 			'	Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, cum? Consectetur vel temporibus eveniet pariatur error porro illum numquam non consequatur? Nostrum consectetur consequatur mollitia molestias ad ipsam enim? Et?',
 		image: '/images/clients/client-1.png',
-		star: '',
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'Click Kar',
 		field: 'Photography & Video Editing',
 		description:
 			'	Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, cum? Consectetur vel temporibus eveniet pariatur error porro illum numquam non consequatur? Nostrum consectetur consequatur mollitia molestias ad ipsam enim? Et?',
 		image: '/images/clients/client-4.png',
-		star: '',
 	},
 ]
 const TestimonialSection = () => {
 	return (
-		<section id="testimonials" >
+		<section id="testimonials">
 			<h2 className="text-center text-4xl font-bold text-white mt-9 mb-8 md:mb-12">
 				Testimonials
 			</h2>

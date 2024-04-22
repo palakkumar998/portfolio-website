@@ -1,17 +1,37 @@
 'use client'
-import React from 'react'
-
 import Facebook from '../../../public/facebook.svg'
 import instagram from '../../../public/instagram.svg'
 import whatsapp from '../../../public/whatsapp.svg'
 
 import Link from 'next/link'
 import Image from 'next/image'
+import React, { useState } from 'react'
 
 const EmailSection = () => {
+	const { subject, setSubject } = useState('')
+	const [message, setMessage] = useState('')
+
+	const sendMail = async (e) => {
+		e.preventDefault()
+
+		const resonse = await fetch('/api/send', {
+			method: 'POST',
+			headers: {
+				'content-type': 'application/json',
+			},
+			body: JSON.stringify({
+				subject,
+				message,
+			}),
+		})
+		console.log(await resonse.json())
+	}
+
 	return (
-	
-		<section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative " id='contact'>
+		<section
+			className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative "
+			id="contact"
+		>
 			<div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-xl absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
 			<div className="z-10">
 				<h5 className="text-xl font-bold text-white my-2">
@@ -36,7 +56,7 @@ const EmailSection = () => {
 				</div>
 			</div>
 			<div>
-				<form className="flex flex-col">
+				<form onSubmit={sendMail} className="flex flex-col">
 					<div className="mb-6">
 						<label
 							htmlFor="email"
@@ -61,6 +81,10 @@ const EmailSection = () => {
 							Subject
 						</label>
 						<input
+							onChange={(e) => {
+								setSubject(e.target.value)
+							}}
+							value={subject}
 							name="subject"
 							type="text"
 							id="subject"
@@ -77,6 +101,10 @@ const EmailSection = () => {
 							Message
 						</label>
 						<textarea
+							value={message}
+							onChange={(e) => {
+								setMessage(e.target.value)
+							}}
 							name="message"
 							id="message"
 							className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
@@ -84,6 +112,7 @@ const EmailSection = () => {
 						/>
 					</div>
 					<button
+					onSubmit={sendMail}
 						type="submit"
 						className="bg-primary-500 hover:bg-primary-900 text-white font-medium py-2.5 px-5 rounded-lg w-full"
 					>

@@ -1,22 +1,31 @@
-import { EmailTemplate } from '../../../components/EmailTemplate';
-import { Resend } from 'resend';
-
-const resend = new Resend(process.env.RESEND_API_KEY);
-const fromEmail = process.env.FROM_EMAIL
-
-export async function POST() {
+import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
+export async function POST(request) {
     try {
-        const data = await resend.emails.send({
-            from: fromEmail,
-            to: '',
-            subject: 'Hello world',
-            react: <>
-                <p>Testing Email from Portfolio Website</p>
-            </>
-        });
+        const { subject, message } = await request.json();
+        const transporter = nodemailer.createTransport({
+            service: 'zoho',
+            host: 'smtp.zoho.in',
+            port: 465,
+            secure: true,
+            auth: {
+                user: 'palakkumar1998@gmail.com',
+                pass: process.env.NEXT_PUBLIC_PASSWORD
+            }
+        })
+        const mailOption = {
+            from: 'palakkumar1998@gmail.com',
+            to: 'falak.kr4783@gmail.com',
+            subject: "send email",
+            html: `<h3> hello falak</h3>
+            <li> title: ${subject}</li>
+            <li> message: ${message}</li>`
+        }
+        await transporter.sendMail(mailOption)
 
-        return Response.json(data);
+        return NextResponse.json({ message: "Email sent succesfully" }, { status: 200 })
+
     } catch (error) {
-        return Response.json({ error });
+        return NextResponse.json({ message: "failed to send email 😒" }, { status: 500 })
     }
 }
