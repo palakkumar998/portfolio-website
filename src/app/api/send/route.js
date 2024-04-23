@@ -2,20 +2,18 @@ import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 export async function POST(request) {
     try {
-        const { subject, message } = await request.json();
+        const { email, subject, message } = await request.json();
         const transporter = nodemailer.createTransport({
-            service: 'zoho',
-            host: 'smtp.zoho.in',
-            port: 465,
-            secure: true,
+            host: 'smtp.ethereal.email',
+            port: 587,
             auth: {
-                user: 'palakkumar1998@gmail.com',
-                pass: process.env.NEXT_PUBLIC_PASSWORD
+                user: 'fredrick.lockman1@ethereal.email',
+                pass: 'wHyh753peu4SnQEPvn'
             }
-        })
+        });
         const mailOption = {
-            from: 'palakkumar1998@gmail.com',
-            to: 'falak.kr4783@gmail.com',
+            from: 'fredrick.lockman1@ethereal.email',
+            to: ` ${email}`,
             subject: "send email",
             html: `<h3> hello falak</h3>
             <li> title: ${subject}</li>

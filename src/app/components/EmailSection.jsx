@@ -8,7 +8,8 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 
 const EmailSection = () => {
-	const { subject, setSubject } = useState('')
+	const [email, setEmail] = useState('')
+	const [subject, setSubject] = useState('')
 	const [message, setMessage] = useState('')
 
 	const sendMail = async (e) => {
@@ -20,6 +21,7 @@ const EmailSection = () => {
 				'content-type': 'application/json',
 			},
 			body: JSON.stringify({
+				email,
 				subject,
 				message,
 			}),
@@ -65,6 +67,10 @@ const EmailSection = () => {
 							Your email
 						</label>
 						<input
+							onChange={(e) => {
+								setEmail(e.target.value)
+							}}
+							value={email}
 							name="email"
 							type="email"
 							id="email"
@@ -112,7 +118,6 @@ const EmailSection = () => {
 						/>
 					</div>
 					<button
-					onSubmit={sendMail}
 						type="submit"
 						className="bg-primary-500 hover:bg-primary-900 text-white font-medium py-2.5 px-5 rounded-lg w-full"
 					>
