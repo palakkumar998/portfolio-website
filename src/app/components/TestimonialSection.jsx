@@ -1,6 +1,7 @@
 'use client'
-import React from 'react'
+import React, { useRef } from 'react'
 import TestimonialCard from './TestimonialCard '
+import { motion, useInView } from 'framer-motion'
 
 const clientsData = [
 	{
@@ -37,23 +38,37 @@ const clientsData = [
 	},
 ]
 const TestimonialSection = () => {
+	const ref = useRef(null)
+	const isInView = useInView(ref, { once: true })
+	const cardVariants = {
+		initial: { y: 50, opacity: 0 },
+		animate: { y: 0, opacity: 1 },
+	}
 	return (
 		<section id="testimonials">
 			<h2 className="text-center text-4xl font-bold text-white mt-9 mb-8 md:mb-12">
 				Testimonials
 			</h2>
-			<div className="grid md:grid-cols-3 gap-8 md:gap-12">
-				{clientsData.map((client) => (
-					<TestimonialCard
-						key={client.id}
-						title={client.title}
-						field={client.field}
-						description={client.description}
-						imgUrl={client.image}
-						star={client.star}
-					/>
+			<ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+				{clientsData.map((client, index) => (
+					<motion.li
+						key={index}
+						variants={cardVariants}
+						initial="initial"
+						animate={isInView ? 'animate' : 'initial'}
+						transition={{ duration: 0.3, delay: index * 0.4 }}
+					>
+						<TestimonialCard
+							key={client.id}
+							title={client.title}
+							field={client.field}
+							description={client.description}
+							imgUrl={client.image}
+							star={client.star}
+						/>
+					</motion.li>
 				))}
-			</div>
+			</ul>
 		</section>
 	)
 }

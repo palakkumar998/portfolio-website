@@ -54,11 +54,11 @@ const HeroSection = () => {
 							>
 								<span className="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700"></span>
 								<span className="relative text-white">
-									Hire Me
+									Contact Me
 								</span>
 							</a>
 						</button>
-						<button>
+						{/* <button>
 							<a
 								href="https://mail.google.com/mail/u/0/#inbox?compose=new"
 								className="relative inline-flex items-center px-8 py-3 overflow-hidden text-lg font-medium text-primary-400 border-2 border-primary-500 rounded-full hover:text-white group hover:bg-gray-50"
@@ -82,7 +82,7 @@ const HeroSection = () => {
 								</span>
 								<span className="relative">Download CV</span>
 							</a>
-						</button>
+						</button> */}
 					</div>
 				</motion.div>
 				<motion.div
@@ -92,7 +92,7 @@ const HeroSection = () => {
 					className="text-center ml-10 sm:text-right relative"
 				>
 					<div className="relative w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]">
-						<div className="rounded-full overflow-hidden bg-gradient-to-br from-purple-500 to-indigo-600 w-full h-full">
+						<div className="rounded-full  overflow-hidden bg-gradient-to-br from-purple-500 to-indigo-600 w-full h-full">
 							<Image
 								src={profile}
 								alt="My Profile Picture"

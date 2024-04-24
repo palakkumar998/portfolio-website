@@ -14,7 +14,7 @@ const Footer = () => {
 					height={70}
 					className="invert mx-9"
 				/>
-				<p className="text-slate-600">All rights reserved.</p>
+				<p className="text-slate-600"> ©, All rights reserved.2022</p>
 			</div>
 		</footer>
 	)
