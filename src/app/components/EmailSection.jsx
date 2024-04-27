@@ -40,10 +40,11 @@ const EmailSection = () => {
 					Lets Connect
 				</h5>
 				<p className="text-gray-500">
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-					Exercitationem, fugit, asperiores aliquid in magni doloribus
-					quia dicta eaque ipsa dolorem fugiat, perspiciatis ut minima
-					perferendis nemo totam. Saepe, inventore consectetur.
+					Ready to bring your vision to life? Let &apos;s collaborate!
+					Whether it is video editing, design, or more, I am here to
+					make your projects shine. Get in touch today and let &apos;s
+					create something amazing together. Your journey to
+					outstanding content starts here!
 				</p>
 				<div className="socials flex flex-row gap-2">
 					<Link href="https://www.facebook.com/falak.kr.5">

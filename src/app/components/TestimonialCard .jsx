@@ -8,7 +8,7 @@ const TestimonialCard = ({ title, imgUrl, field, description }) => {
 				className="relative  block rounded-lg bg-white shadow-md dark:bg-slate-900"
 				style={{
 					// Adding a purple blurry glow behind the cards
-					boxShadow: '0 0 150px rgba(166,55, 255, 0.5)',
+					boxShadow: '0 0 150px rgba(166,55, 255, 0.3)',
 					borderRadius: '12px',
 				}}
 			>

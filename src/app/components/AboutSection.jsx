@@ -207,7 +207,7 @@ const AboutSection = () => {
 						About Me
 					</h2>
 					<p className="text-base lg:text-lg">
-						With over 4+ years of experience in video editing and
+						With over 4 years of experience in video editing and
 						content creation, I have honed my ability to produce
 						engaging YouTube videos, Instagram reels, posts, and
 						flyers. My strong technical foundation, backed by a
