@@ -78,7 +78,7 @@ const projectsData = [
 		image: '/images/projects/8.png',
 		tag: ['All', 'Designing'],
 		gitUrl: '/',
-		previewUrl: '/',
+		previewUrl: 'https://rsagarbatti.in/',
 	},
 	{
 		id: 9,
