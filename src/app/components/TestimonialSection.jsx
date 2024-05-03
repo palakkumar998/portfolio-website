@@ -39,7 +39,7 @@ const clientsData = [
 	{
 		id: 5,
 		title: 'RS Agarbatti',
-		field: 'Incense Sticks Menufecturer, Mumbai',
+		field: 'Incense Sticks Manufacturer, Mumbai',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad debitis dolores, facilis eum ipsum, rem reiciendis, eius dolorum voluptates at earum suscipit autem aliquid! Totam, eligendi. Excepturi repudiandae explicabo voluptatem.',
 		image: '/images/clients/client-5.png',
