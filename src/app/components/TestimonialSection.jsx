@@ -36,6 +36,14 @@ const clientsData = [
 			'video editing is outstanding! Being the owner of Click Kar Studio in Rishikesh, I needed my content to stand out. Palak s expertise brought my studio to life with stunning visuals. Highly recommended',
 		image: '/images/clients/client-4.png',
 	},
+	{
+		id: 5,
+		title: 'RS Agarbatti',
+		field: 'Incense Sticks Menufecturer, Mumbai',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad debitis dolores, facilis eum ipsum, rem reiciendis, eius dolorum voluptates at earum suscipit autem aliquid! Totam, eligendi. Excepturi repudiandae explicabo voluptatem.',
+		image: '/images/clients/client-5.png',
+	},
 ]
 const TestimonialSection = () => {
 	const ref = useRef(null)
