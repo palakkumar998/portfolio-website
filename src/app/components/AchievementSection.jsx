@@ -21,7 +21,7 @@ const achievementList = [
 	},
 	{
 		metric: 'Increased Views',
-		value: '10',
+		value: '100',
 		postfix: 'k+',
 	},
 	{
