@@ -95,40 +95,42 @@ const TAB_DATA = [
 		title: 'Platforms',
 		id: 'platforms',
 		content: (
-			<ul className="list-disc pl-2">
-				<div className="flex mb-2 py-3 gap-6 items-center">
+			<ul className="flex list-disc pl-2 flex-wrap">
+				<div className="flex flex-col md:flex-row mb-2 py-3 gap-4 md:gap-6 items-center w-full">
 					<Image
 						src={yt}
 						alt="youtube"
-						width={90}
-						height={90}
+						width={70}  // Adjust width for mobile
+						height={70} // Adjust height for mobile
 						className="transition-transform duration-300 hover:scale-110"
 					/>
 
 					<Image
 						src={insta}
 						alt="instagram"
-						width={90}
-						height={90}
+						width={70}  // Adjust width for mobile
+						height={70} // Adjust height for mobile
 						className="transition-transform duration-300 hover:scale-110"
 					/>
+
 					<Image
 						src={li}
 						alt="linkedin"
-						width={80}
-						height={90}
+						width={70}  // Adjust width for mobile
+						height={70} // Adjust height for mobile
 						className="transition-transform duration-300 hover:scale-110"
 					/>
 				</div>
 			</ul>
+
 		),
 	},
 	{
 		title: 'Tools',
 		id: 'tools & technologies',
 		content: (
-			<ul className="list-disc grid-cols-2 pl-2">
-				<div className="flex mb-2 py-3 gap-3 items-center">
+			<ul className="flex list-disc pl-2 flex-wrap">
+				<div className="flex flex-col md:flex-row mb-2 py-3 gap-4 md:gap-6 items-center w-full">
 					<Image
 						src={dr}
 						alt="davinci"

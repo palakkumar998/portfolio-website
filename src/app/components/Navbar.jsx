@@ -28,7 +28,7 @@ const navlinks = [
 const Navbar = () => {
 	const [navbarOpen, setnavbarOpen] = useState(false)
 	return (
-		<nav className="fixed mx-auto  top-0 left-0 right-0 z-10 bg-[#121212]">
+		<nav className="fixed mx-auto  top-0 left-0 right-0 z-20 bg-[#121212]">
 			<div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
 				<Image
 					src={logo}
