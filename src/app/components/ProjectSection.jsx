@@ -94,7 +94,7 @@ const projectsData = [
 		id: 10,
 		title: 'Chitrakatha Production',
 		description: 'Sound Healing',
-		image: '/images/projects/9.png',
+		image: '/images/projects/10.png',
 		tag: ['All', 'Editing'],
 		gitUrl: '/',
 		previewUrl:
@@ -104,7 +104,7 @@ const projectsData = [
 		id: 11,
 		title: 'Wellnessutra Yoga Retreat',
 		description: 'Yoga Reatreat',
-		image: '/images/projects/9.png',
+		image: '/images/projects/11.png',
 		tag: ['All', 'Editing'],
 		gitUrl: '/',
 		previewUrl:
