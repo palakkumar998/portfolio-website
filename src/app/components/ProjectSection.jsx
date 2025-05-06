@@ -64,7 +64,7 @@ const projectsData = [
 	},
 	{
 		id: 7,
-		title: 'RS Inscence Sticks',
+		title: 'RS Incence Sticks',
 		description: 'Stickers & logo Designing',
 		image: '/images/projects/7.png',
 		tag: ['All', 'Designing'],
@@ -73,7 +73,7 @@ const projectsData = [
 	},
 	{
 		id: 8,
-		title: 'RS Inscence Sticks',
+		title: 'RS Incence Sticks',
 		description: 'Packaging design',
 		image: '/images/projects/8.png',
 		tag: ['All', 'Designing'],
