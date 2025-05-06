@@ -90,6 +90,26 @@ const projectsData = [
 		previewUrl:
 			'https://www.instagram.com/clickar7?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
 	},
+	{
+		id: 10,
+		title: 'Chitrakatha Production',
+		description: 'Sound Healing',
+		image: '/images/projects/9.png',
+		tag: ['All', 'Editing'],
+		gitUrl: '/',
+		previewUrl:
+			'https://youtu.be/CgBrmK6Gl0k?si=8nHsmuI3RVbM3p7S',
+	},
+	{
+		id: 11,
+		title: 'Wellnessutra Yoga Retreat',
+		description: 'Yoga Reatreat',
+		image: '/images/projects/9.png',
+		tag: ['All', 'Editing'],
+		gitUrl: '/',
+		previewUrl:
+			'https://youtu.be/IxgylpzTDOo?si=BiAWZhcqrCMt_PnQ',
+	},
 ]
 
 const ProjectSection = () => {

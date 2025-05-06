@@ -67,7 +67,13 @@ const TAB_DATA = [
 						Large Form Content
 					</button>
 					<button class="border border-primary-500 text-white m-2 font-bold py-2 px-4 rounded-3xl">
-						Talking Head Videos
+						Traditional Wedding Videos
+					</button>
+					<button class="border border-primary-500 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+						Cinematic Higlights
+					</button>
+					<button class="border border-primary-500 text-white m-2 font-bold py-2 px-4 rounded-3xl">
+						Pre-wedding Videos
 					</button>
 					<button class="border border-primary-500 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 						Informative videos
@@ -82,7 +88,7 @@ const TAB_DATA = [
 					</button>
 
 					<button class="border border-primary-500 text-white m-2 font-bold py-2 px-4 rounded-3xl">
-						Corporate Videos
+						Real Estate Videos
 					</button>
 					<button class="border border-primary-500 text-white m-2 font-bold py-2 px-4 rounded-3xl">
 						Fitness & Yoga tutorials
