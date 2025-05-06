@@ -215,13 +215,14 @@ const AboutSection = () => {
 						About Me
 					</h2>
 					<p className="text-base lg:text-lg">
-						With over 4 years of experience in video editing and
+						With over 4+ years of experience in video editing and
 						content creation, I have honed my ability to produce
 						engaging YouTube videos, Instagram reels, posts, and
 						flyers. My strong technical foundation, backed by a
 						B.Tech degree in Computer Science and Engineering from
 						Uttarakhand Technical University, allows me to bring a
 						unique blend of creativity and precision to my projects.
+						.Now Working With Chitrakatha Productions.
 						My passion for storytelling enables me to craft
 						compelling narratives that captivate audiences and leave
 						a lasting impression. I strive to create visually
