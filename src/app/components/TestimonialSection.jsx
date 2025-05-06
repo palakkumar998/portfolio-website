@@ -41,7 +41,8 @@ const clientsData = [
 		title: 'RS Agarbatti',
 		field: 'Incense Sticks Manufacturer, Mumbai',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad debitis dolores, facilis eum ipsum, rem reiciendis, eius dolorum voluptates at earum suscipit autem aliquid! Totam, eligendi. Excepturi repudiandae explicabo voluptatem.',
+			'He has great dessigning skills and attention to detail. As the owner of RS Agarbatti, a leading incense stick manufacturer in Mumbai, I needed high-quality Product design to showcase my products like Box Design, Sticker Design, Packaging Design & Catalogues and all of them were done by Palak. Palak delivered stunning visuals that exceeded my expectations. I highly recommend their services.',
+
 		image: '/images/clients/client-5.png',
 	},
 ]
